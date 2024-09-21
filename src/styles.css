@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+input {
+	padding: 8px;
+	width: 100%;
+	max-width: 260px;
+}
+
+button {
+	padding: 8px;
+}
+
+.controls {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4em;
+}
+
+.output {
+	margin: 0;
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.output.message {
+	color: green;
+}
+
+.output.log {
+	color: blue;
+}
+
+.output.error {
+	color: red;
+}

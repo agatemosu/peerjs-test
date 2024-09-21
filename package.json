@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"dev": "servor src --reload"
+	},
+	"devDependencies": {
+		"peerjs": "^1.5.4",
+		"servor": "^4.0.2"
+	}
+}
